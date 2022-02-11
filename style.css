@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Poppins_new';
+    src: url('./Resources/poppins.regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -179,7 +184,8 @@
     justify-content: center;
     position: relative;
     padding: 20px;
-    overflow-y: scroll;
+    overflow-y: hidden;
+
     /* padding-bottom: 10vh; */
 
 }
@@ -202,7 +208,7 @@
 }
 .Products h1{
     position: absolute;
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 28px;
     z-index: 5;
     top:5px;
@@ -262,7 +268,7 @@
     margin-top: 8vh;
 }
 .text_content h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -305,7 +311,7 @@
     margin-top: 8vh;
 }
 .text_content2 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -348,7 +354,7 @@
     margin-top: 8vh;
 }
 .text_content3 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -391,7 +397,7 @@
     margin-top: 8vh;
 }
 .text_content4 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -434,7 +440,7 @@
     margin-top: 8vh;
 }
 .text_content5 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -476,7 +482,7 @@
     margin-top: 8vh;
 }
 .text_content6 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -519,7 +525,7 @@
     margin-top: 8vh;
 }
 .text_content7 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -562,7 +568,7 @@
     margin-top: 8vh;
 }
 .text_content8 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -605,7 +611,7 @@
     margin-top: 8vh;
 }
 .text_content9 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
@@ -647,7 +653,7 @@
     margin-top: 8vh;
 }
 .text_content10 h2{
-    font-family: 'poppins';
+    font-family: 'Poppins_new';
     font-size: 14px;
     text-align: center;
 }
